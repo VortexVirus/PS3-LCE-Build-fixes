@@ -1,0 +1,807 @@
+﻿Build started 11/03/2026 16:43:21.
+     1>Project "C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\Minecraft.World.vcxproj" on node 2 (Build target(s)).
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1680,5): warning MSB3785: No SDKs were found. SDKReference items will not be resolved. If your application requires these references there may be compilation errors.
+     1>ClCompile:
+         ps3ppusnc.exe -D_DEBUG_MENUS_ENABLED -D_ITERATOR_DEBUG_LEVEL=0 -D_SECURE_SCL=0 -D_DEBUG -D_LIB -D__PS3__ -o PS3_Debug\ArmorItem.o -c -Xdepmode=1 -MD -Xmserrors -I. -I/target\src\npToolkit\include\np_toolkit -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\\..\Minecraft.Client\PS3\Assert" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\ppu\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\common\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\host-win32\sn\ppu\include" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0\boost\tr1\tr1" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.World\x64headers" -g -Xinlinedebug=1 --diag_suppress=1700 --diag_suppress=613 --diag_suppress=1011 -Od -Xc+=exceptions --use_pch="C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\PS3_Debug\Minecraft.World.pch" -Xpch_override=1 "C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\ArmorItem.cpp"
+         ps3ppusnc.exe -D_DEBUG_MENUS_ENABLED -D_ITERATOR_DEBUG_LEVEL=0 -D_SECURE_SCL=0 -D_DEBUG -D_LIB -D__PS3__ -o PS3_Debug\Biome.o -c -Xdepmode=1 -MD -Xmserrors -I. -I/target\src\npToolkit\include\np_toolkit -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\\..\Minecraft.Client\PS3\Assert" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\ppu\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\common\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\host-win32\sn\ppu\include" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0\boost\tr1\tr1" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.World\x64headers" -g -Xinlinedebug=1 --diag_suppress=1700 --diag_suppress=613 --diag_suppress=1011 -Od -Xc+=exceptions --use_pch="C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\PS3_Debug\Minecraft.World.pch" -Xpch_override=1 "C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\Biome.cpp"
+         ps3ppusnc.exe -D_DEBUG_MENUS_ENABLED -D_ITERATOR_DEBUG_LEVEL=0 -D_SECURE_SCL=0 -D_DEBUG -D_LIB -D__PS3__ -o PS3_Debug\BiomeSource.o -c -Xdepmode=1 -MD -Xmserrors -I. -I/target\src\npToolkit\include\np_toolkit -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\\..\Minecraft.Client\PS3\Assert" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\ppu\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\common\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\host-win32\sn\ppu\include" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0\boost\tr1\tr1" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.World\x64headers" -g -Xinlinedebug=1 --diag_suppress=1700 --diag_suppress=613 --diag_suppress=1011 -Od -Xc+=exceptions --use_pch="C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\PS3_Debug\Minecraft.World.pch" -Xpch_override=1 "C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\BiomeSource.cpp"
+         ps3ppusnc.exe -D_DEBUG_MENUS_ENABLED -D_ITERATOR_DEBUG_LEVEL=0 -D_SECURE_SCL=0 -D_DEBUG -D_LIB -D__PS3__ -o PS3_Debug\ClockItem.o -c -Xdepmode=1 -MD -Xmserrors -I. -I/target\src\npToolkit\include\np_toolkit -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\\..\Minecraft.Client\PS3\Assert" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\ppu\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\common\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\host-win32\sn\ppu\include" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0\boost\tr1\tr1" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.World\x64headers" -g -Xinlinedebug=1 --diag_suppress=1700 --diag_suppress=613 --diag_suppress=1011 -Od -Xc+=exceptions --use_pch="C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\PS3_Debug\Minecraft.World.pch" -Xpch_override=1 "C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\ClockItem.cpp"
+         ps3ppusnc.exe -D_DEBUG_MENUS_ENABLED -D_ITERATOR_DEBUG_LEVEL=0 -D_SECURE_SCL=0 -D_DEBUG -D_LIB -D__PS3__ -o PS3_Debug\CompassItem.o -c -Xdepmode=1 -MD -Xmserrors -I. -I/target\src\npToolkit\include\np_toolkit -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\\..\Minecraft.Client\PS3\Assert" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\ppu\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\common\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\host-win32\sn\ppu\include" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0\boost\tr1\tr1" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.World\x64headers" -g -Xinlinedebug=1 --diag_suppress=1700 --diag_suppress=613 --diag_suppress=1011 -Od -Xc+=exceptions --use_pch="C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\PS3_Debug\Minecraft.World.pch" -Xpch_override=1 "C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\CompassItem.cpp"
+         ps3ppusnc.exe -D_DEBUG_MENUS_ENABLED -D_ITERATOR_DEBUG_LEVEL=0 -D_SECURE_SCL=0 -D_DEBUG -D_LIB -D__PS3__ -o PS3_Debug\ConsoleSaveFileOriginal.o -c -Xdepmode=1 -MD -Xmserrors -I. -I/target\src\npToolkit\include\np_toolkit -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\\..\Minecraft.Client\PS3\Assert" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\ppu\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\common\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\host-win32\sn\ppu\include" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0\boost\tr1\tr1" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.World\x64headers" -g -Xinlinedebug=1 --diag_suppress=1700 --diag_suppress=613 --diag_suppress=1011 -Od -Xc+=exceptions --use_pch="C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\PS3_Debug\Minecraft.World.pch" -Xpch_override=1 "C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\ConsoleSaveFileOriginal.cpp"
+         ps3ppusnc.exe -D_DEBUG_MENUS_ENABLED -D_ITERATOR_DEBUG_LEVEL=0 -D_SECURE_SCL=0 -D_DEBUG -D_LIB -D__PS3__ -o PS3_Debug\ContainerMenu.o -c -Xdepmode=1 -MD -Xmserrors -I. -I/target\src\npToolkit\include\np_toolkit -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\\..\Minecraft.Client\PS3\Assert" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\ppu\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\common\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\host-win32\sn\ppu\include" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0\boost\tr1\tr1" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.World\x64headers" -g -Xinlinedebug=1 --diag_suppress=1700 --diag_suppress=613 --diag_suppress=1011 -Od -Xc+=exceptions --use_pch="C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\PS3_Debug\Minecraft.World.pch" -Xpch_override=1 "C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\ContainerMenu.cpp"
+         ps3ppusnc.exe -D_DEBUG_MENUS_ENABLED -D_ITERATOR_DEBUG_LEVEL=0 -D_SECURE_SCL=0 -D_DEBUG -D_LIB -D__PS3__ -o PS3_Debug\Dimension.o -c -Xdepmode=1 -MD -Xmserrors -I. -I/target\src\npToolkit\include\np_toolkit -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\\..\Minecraft.Client\PS3\Assert" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\ppu\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\common\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\host-win32\sn\ppu\include" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0\boost\tr1\tr1" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.World\x64headers" -g -Xinlinedebug=1 --diag_suppress=1700 --diag_suppress=613 --diag_suppress=1011 -Od -Xc+=exceptions --use_pch="C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\PS3_Debug\Minecraft.World.pch" -Xpch_override=1 "C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\Dimension.cpp"
+         ps3ppusnc.exe -D_DEBUG_MENUS_ENABLED -D_ITERATOR_DEBUG_LEVEL=0 -D_SECURE_SCL=0 -D_DEBUG -D_LIB -D__PS3__ -o PS3_Debug\FoliageColor.o -c -Xdepmode=1 -MD -Xmserrors -I. -I/target\src\npToolkit\include\np_toolkit -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\\..\Minecraft.Client\PS3\Assert" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\ppu\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\common\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\host-win32\sn\ppu\include" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0\boost\tr1\tr1" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.World\x64headers" -g -Xinlinedebug=1 --diag_suppress=1700 --diag_suppress=613 --diag_suppress=1011 -Od -Xc+=exceptions --use_pch="C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\PS3_Debug\Minecraft.World.pch" -Xpch_override=1 "C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\FoliageColor.cpp"
+         ps3ppusnc.exe -D_DEBUG_MENUS_ENABLED -D_ITERATOR_DEBUG_LEVEL=0 -D_SECURE_SCL=0 -D_DEBUG -D_LIB -D__PS3__ -o PS3_Debug\GrassTile.o -c -Xdepmode=1 -MD -Xmserrors -I. -I/target\src\npToolkit\include\np_toolkit -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\\..\Minecraft.Client\PS3\Assert" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\ppu\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\common\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\host-win32\sn\ppu\include" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0\boost\tr1\tr1" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.World\x64headers" -g -Xinlinedebug=1 --diag_suppress=1700 --diag_suppress=613 --diag_suppress=1011 -Od -Xc+=exceptions --use_pch="C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\PS3_Debug\Minecraft.World.pch" -Xpch_override=1 "C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\GrassTile.cpp"
+         ps3ppusnc.exe -D_DEBUG_MENUS_ENABLED -D_ITERATOR_DEBUG_LEVEL=0 -D_SECURE_SCL=0 -D_DEBUG -D_LIB -D__PS3__ -o PS3_Debug\HellDimension.o -c -Xdepmode=1 -MD -Xmserrors -I. -I/target\src\npToolkit\include\np_toolkit -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\\..\Minecraft.Client\PS3\Assert" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\ppu\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\common\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\host-win32\sn\ppu\include" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0\boost\tr1\tr1" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.World\x64headers" -g -Xinlinedebug=1 --diag_suppress=1700 --diag_suppress=613 --diag_suppress=1011 -Od -Xc+=exceptions --use_pch="C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\PS3_Debug\Minecraft.World.pch" -Xpch_override=1 "C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\HellDimension.cpp"
+         ps3ppusnc.exe -D_DEBUG_MENUS_ENABLED -D_ITERATOR_DEBUG_LEVEL=0 -D_SECURE_SCL=0 -D_DEBUG -D_LIB -D__PS3__ -o PS3_Debug\LeafTile.o -c -Xdepmode=1 -MD -Xmserrors -I. -I/target\src\npToolkit\include\np_toolkit -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\\..\Minecraft.Client\PS3\Assert" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\ppu\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\common\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\host-win32\sn\ppu\include" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0\boost\tr1\tr1" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.World\x64headers" -g -Xinlinedebug=1 --diag_suppress=1700 --diag_suppress=613 --diag_suppress=1011 -Od -Xc+=exceptions --use_pch="C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\PS3_Debug\Minecraft.World.pch" -Xpch_override=1 "C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\LeafTile.cpp"
+         ps3ppusnc.exe -D_DEBUG_MENUS_ENABLED -D_ITERATOR_DEBUG_LEVEL=0 -D_SECURE_SCL=0 -D_DEBUG -D_LIB -D__PS3__ -o PS3_Debug\Level.o -c -Xdepmode=1 -MD -Xmserrors -I. -I/target\src\npToolkit\include\np_toolkit -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\\..\Minecraft.Client\PS3\Assert" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\ppu\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\common\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\host-win32\sn\ppu\include" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0\boost\tr1\tr1" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.World\x64headers" -g -Xinlinedebug=1 --diag_suppress=1700 --diag_suppress=613 --diag_suppress=1011 -Od -Xc+=exceptions --use_pch="C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\PS3_Debug\Minecraft.World.pch" -Xpch_override=1 "C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\Level.cpp"
+         ps3ppusnc.exe -D_DEBUG_MENUS_ENABLED -D_ITERATOR_DEBUG_LEVEL=0 -D_SECURE_SCL=0 -D_DEBUG -D_LIB -D__PS3__ -o PS3_Debug\Monster.o -c -Xdepmode=1 -MD -Xmserrors -I. -I/target\src\npToolkit\include\np_toolkit -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\\..\Minecraft.Client\PS3\Assert" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\ppu\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\common\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\host-win32\sn\ppu\include" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0\boost\tr1\tr1" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.World\x64headers" -g -Xinlinedebug=1 --diag_suppress=1700 --diag_suppress=613 --diag_suppress=1011 -Od -Xc+=exceptions --use_pch="C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\PS3_Debug\Minecraft.World.pch" -Xpch_override=1 "C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\Monster.cpp"
+         ps3ppusnc.exe -D_DEBUG_MENUS_ENABLED -D_ITERATOR_DEBUG_LEVEL=0 -D_SECURE_SCL=0 -D_DEBUG -D_LIB -D__PS3__ -o PS3_Debug\MonsterPlacerItem.o -c -Xdepmode=1 -MD -Xmserrors -I. -I/target\src\npToolkit\include\np_toolkit -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\\..\Minecraft.Client\PS3\Assert" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\ppu\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\common\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\host-win32\sn\ppu\include" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0\boost\tr1\tr1" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.World\x64headers" -g -Xinlinedebug=1 --diag_suppress=1700 --diag_suppress=613 --diag_suppress=1011 -Od -Xc+=exceptions --use_pch="C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\PS3_Debug\Minecraft.World.pch" -Xpch_override=1 "C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\MonsterPlacerItem.cpp"
+         ps3ppusnc.exe -D_DEBUG_MENUS_ENABLED -D_ITERATOR_DEBUG_LEVEL=0 -D_SECURE_SCL=0 -D_DEBUG -D_LIB -D__PS3__ -o PS3_Debug\Packet.o -c -Xdepmode=1 -MD -Xmserrors -I. -I/target\src\npToolkit\include\np_toolkit -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\\..\Minecraft.Client\PS3\Assert" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\ppu\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\common\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\host-win32\sn\ppu\include" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0\boost\tr1\tr1" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.World\x64headers" -g -Xinlinedebug=1 --diag_suppress=1700 --diag_suppress=613 --diag_suppress=1011 -Od -Xc+=exceptions --use_pch="C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\PS3_Debug\Minecraft.World.pch" -Xpch_override=1 "C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\Packet.cpp"
+         ps3ppusnc.exe -D_DEBUG_MENUS_ENABLED -D_ITERATOR_DEBUG_LEVEL=0 -D_SECURE_SCL=0 -D_DEBUG -D_LIB -D__PS3__ -o PS3_Debug\PistonBaseTile.o -c -Xdepmode=1 -MD -Xmserrors -I. -I/target\src\npToolkit\include\np_toolkit -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\\..\Minecraft.Client\PS3\Assert" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\ppu\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\common\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\host-win32\sn\ppu\include" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0\boost\tr1\tr1" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.World\x64headers" -g -Xinlinedebug=1 --diag_suppress=1700 --diag_suppress=613 --diag_suppress=1011 -Od -Xc+=exceptions --use_pch="C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\PS3_Debug\Minecraft.World.pch" -Xpch_override=1 "C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\PistonBaseTile.cpp"
+         ps3ppusnc.exe -D_DEBUG_MENUS_ENABLED -D_ITERATOR_DEBUG_LEVEL=0 -D_SECURE_SCL=0 -D_DEBUG -D_LIB -D__PS3__ -o PS3_Debug\PotionBrewing.o -c -Xdepmode=1 -MD -Xmserrors -I. -I/target\src\npToolkit\include\np_toolkit -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\\..\Minecraft.Client\PS3\Assert" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\ppu\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\common\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\host-win32\sn\ppu\include" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0\boost\tr1\tr1" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.World\x64headers" -g -Xinlinedebug=1 --diag_suppress=1700 --diag_suppress=613 --diag_suppress=1011 -Od -Xc+=exceptions --use_pch="C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\PS3_Debug\Minecraft.World.pch" -Xpch_override=1 "C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\PotionBrewing.cpp"
+         ps3ppusnc.exe -D_DEBUG_MENUS_ENABLED -D_ITERATOR_DEBUG_LEVEL=0 -D_SECURE_SCL=0 -D_DEBUG -D_LIB -D__PS3__ -o PS3_Debug\RedStoneDustTile.o -c -Xdepmode=1 -MD -Xmserrors -I. -I/target\src\npToolkit\include\np_toolkit -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\\..\Minecraft.Client\PS3\Assert" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\ppu\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\common\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\host-win32\sn\ppu\include" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0\boost\tr1\tr1" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.World\x64headers" -g -Xinlinedebug=1 --diag_suppress=1700 --diag_suppress=613 --diag_suppress=1011 -Od -Xc+=exceptions --use_pch="C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\PS3_Debug\Minecraft.World.pch" -Xpch_override=1 "C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\RedStoneDustTile.cpp"
+         ps3ppusnc.exe -D_DEBUG_MENUS_ENABLED -D_ITERATOR_DEBUG_LEVEL=0 -D_SECURE_SCL=0 -D_DEBUG -D_LIB -D__PS3__ -o PS3_Debug\SignTileEntity.o -c -Xdepmode=1 -MD -Xmserrors -I. -I/target\src\npToolkit\include\np_toolkit -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\\..\Minecraft.Client\PS3\Assert" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\ppu\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\common\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\host-win32\sn\ppu\include" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0\boost\tr1\tr1" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.World\x64headers" -g -Xinlinedebug=1 --diag_suppress=1700 --diag_suppress=613 --diag_suppress=1011 -Od -Xc+=exceptions --use_pch="C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\PS3_Debug\Minecraft.World.pch" -Xpch_override=1 "C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\SignTileEntity.cpp"
+         ps3ppusnc.exe -D_DEBUG_MENUS_ENABLED -D_ITERATOR_DEBUG_LEVEL=0 -D_SECURE_SCL=0 -D_DEBUG -D_LIB -D__PS3__ -o PS3_Debug\StemTile.o -c -Xdepmode=1 -MD -Xmserrors -I. -I/target\src\npToolkit\include\np_toolkit -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\\..\Minecraft.Client\PS3\Assert" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\ppu\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\common\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\host-win32\sn\ppu\include" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0\boost\tr1\tr1" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.World\x64headers" -g -Xinlinedebug=1 --diag_suppress=1700 --diag_suppress=613 --diag_suppress=1011 -Od -Xc+=exceptions --use_pch="C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\PS3_Debug\Minecraft.World.pch" -Xpch_override=1 "C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\StemTile.cpp"
+         ps3ppusnc.exe -D_DEBUG_MENUS_ENABLED -D_ITERATOR_DEBUG_LEVEL=0 -D_SECURE_SCL=0 -D_DEBUG -D_LIB -D__PS3__ -o PS3_Debug\TallGrass.o -c -Xdepmode=1 -MD -Xmserrors -I. -I/target\src\npToolkit\include\np_toolkit -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\\..\Minecraft.Client\PS3\Assert" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\ppu\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\common\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\host-win32\sn\ppu\include" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0\boost\tr1\tr1" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.World\x64headers" -g -Xinlinedebug=1 --diag_suppress=1700 --diag_suppress=613 --diag_suppress=1011 -Od -Xc+=exceptions --use_pch="C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\PS3_Debug\Minecraft.World.pch" -Xpch_override=1 "C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\TallGrass.cpp"
+         ps3ppusnc.exe -D_DEBUG_MENUS_ENABLED -D_ITERATOR_DEBUG_LEVEL=0 -D_SECURE_SCL=0 -D_DEBUG -D_LIB -D__PS3__ -o PS3_Debug\TheEndDimension.o -c -Xdepmode=1 -MD -Xmserrors -I. -I/target\src\npToolkit\include\np_toolkit -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\\..\Minecraft.Client\PS3\Assert" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\ppu\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\common\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\host-win32\sn\ppu\include" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0\boost\tr1\tr1" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.World\x64headers" -g -Xinlinedebug=1 --diag_suppress=1700 --diag_suppress=613 --diag_suppress=1011 -Od -Xc+=exceptions --use_pch="C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\PS3_Debug\Minecraft.World.pch" -Xpch_override=1 "C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\TheEndDimension.cpp"
+         ps3ppusnc.exe -D_DEBUG_MENUS_ENABLED -D_ITERATOR_DEBUG_LEVEL=0 -D_SECURE_SCL=0 -D_DEBUG -D_LIB -D__PS3__ -o PS3_Debug\WaterLilyTile.o -c -Xdepmode=1 -MD -Xmserrors -I. -I/target\src\npToolkit\include\np_toolkit -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\\..\Minecraft.Client\PS3\Assert" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\ppu\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\target\common\include" -I"C:/Users/night/Documents/project ps3/ps3 sdk\host-win32\sn\ppu\include" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0\boost\tr1\tr1" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.Client\PS3\PS3Extras\boost_1_53_0" -I"C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\..\Minecraft.World\x64headers" -g -Xinlinedebug=1 --diag_suppress=1700 --diag_suppress=613 --diag_suppress=1011 -Od -Xc+=exceptions --use_pch="C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\PS3_Debug\Minecraft.World.pch" -Xpch_override=1 "C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\WaterLilyTile.cpp"
+         ClockItem.cpp
+         ContainerMenu.cpp
+         LeafTile.cpp
+         Monster.cpp
+         CompassItem.cpp
+         HellDimension.cpp
+         ConsoleSaveFileOriginal.cpp
+         Dimension.cpp
+         MonsterPlacerItem.cpp
+         Biome.cpp
+         Level.cpp
+         FoliageColor.cpp
+         Packet.cpp
+         BiomeSource.cpp
+         ArmorItem.cpp
+         GrassTile.cpp
+     1>C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\ConsoleSaveFileOriginal.cpp(89,7): warning 178: variable "AllocData" was declared but never referenced
+         
+     1>C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\ConsoleSaveFileOriginal.cpp(332,23): warning 187: pointless comparison of unsigned integer with zero
+         
+     1>C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\ConsoleSaveFileOriginal.cpp(363,22): warning 187: pointless comparison of unsigned integer with zero
+         
+     1>C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\ConsoleSaveFileOriginal.cpp(400,22): warning 187: pointless comparison of unsigned integer with zero
+         
+     1>C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\ConsoleSaveFileOriginal.cpp(473,7): warning 552: variable "numberOfBytesWritten" was set but never used
+         
+     1>C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\ConsoleSaveFileOriginal.cpp(643,30): warning 178: variable "qwTime" was declared but never referenced
+         
+     1>C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\ConsoleSaveFileOriginal.cpp(643,38): warning 178: variable "qwNewTime" was declared but never referenced
+         
+     1>C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\ConsoleSaveFileOriginal.cpp(643,49): warning 178: variable "qwDeltaTime" was declared but never referenced
+         
+     1>C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\ConsoleSaveFileOriginal.cpp(644,7): warning 178: variable "fElapsedTime" was declared but never referenced
+         
+     1>C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\ConsoleSaveFileOriginal.cpp(646,7): warning 178: variable "fSecsPerTick" was declared but never referenced
+         
+     1>C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\ConsoleSaveFileOriginal.cpp(813,18): warning 178: variable "pClass" was declared but never referenced
+         
+     1>C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\ConsoleSaveFileOriginal.cpp(992,7): warning 178: variable "numberOfBytesWritten" was declared but never referenced
+         
+     1>C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\ConsoleSaveFileOriginal.cpp(993,7): warning 178: variable "numberOfBytesRead" was declared but never referenced
+         
+         PotionBrewing.cpp
+         PistonBaseTile.cpp
+         RedStoneDustTile.cpp
+         SignTileEntity.cpp
+         StemTile.cpp
+         TallGrass.cpp
+         TheEndDimension.cpp
+     1>C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\Level.cpp(142,19): warning 68: integer conversion resulted in a change of sign
+         
+     1>C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\Level.cpp(200,19): warning 68: integer conversion resulted in a change of sign
+         
+     1>C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\Level.cpp(267,19): warning 68: integer conversion resulted in a change of sign
+         
+     1>C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\Level.cpp(343,19): warning 68: integer conversion resulted in a change of sign
+         
+     1>C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\Level.cpp(426,22): warning 68: integer conversion resulted in a change of sign
+         
+         WaterLilyTile.cpp
+     1>C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\Level.cpp(1161,2): warning 112: statement is unreachable
+         
+     1>C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\Level.cpp(4358,75): warning 1628: argument of type "__int64" is incompatible with parameter (1 of param_time) of type "int"
+         
+       Lib:
+         C:\Users\night\Documents\project ps3\ps3 sdk\host-win32\sn\bin\ps3snarl.exe create "C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\PS3_Debug\Minecraft.World.a"
+         addmod PS3_Debug\AABB.o
+         addmod PS3_Debug\Abilities.o
+         addmod PS3_Debug\AbstractContainerMenu.o
+         addmod PS3_Debug\Achievement.o
+         addmod PS3_Debug\Achievements.o
+         addmod PS3_Debug\AddEntityPacket.o
+         addmod PS3_Debug\AddExperienceOrbPacket.o
+         addmod PS3_Debug\AddGlobalEntityPacket.o
+         addmod PS3_Debug\AddIslandLayer.o
+         addmod PS3_Debug\AddMobPacket.o
+         addmod PS3_Debug\AddMushroomIslandLayer.o
+         addmod PS3_Debug\AddPaintingPacket.o
+         addmod PS3_Debug\AddPlayerPacket.o
+         addmod PS3_Debug\AddSnowLayer.o
+         addmod PS3_Debug\AgableMob.o
+         addmod PS3_Debug\AirTile.o
+         addmod PS3_Debug\Animal.o
+         addmod PS3_Debug\AnimatePacket.o
+         addmod PS3_Debug\AnvilTile.o
+         addmod PS3_Debug\AnvilTileItem.o
+         addmod PS3_Debug\ArmorDyeRecipe.o
+         addmod PS3_Debug\ArmorItem.o
+         addmod PS3_Debug\ArmorRecipes.o
+         addmod PS3_Debug\ArmorSlot.o
+         addmod PS3_Debug\Arrow.o
+         addmod PS3_Debug\ArrowAttackGoal.o
+         addmod PS3_Debug\ArrowDamageEnchantment.o
+         addmod PS3_Debug\ArrowFireEnchantment.o
+         addmod PS3_Debug\ArrowInfiniteEnchantment.o
+         addmod PS3_Debug\ArrowKnockbackEnchantment.o
+         addmod PS3_Debug\AuxDataTileItem.o
+         addmod PS3_Debug\AvoidPlayerGoal.o
+         addmod PS3_Debug\AwardStatPacket.o
+         addmod PS3_Debug\BasicTree.o
+         addmod PS3_Debug\BasicTypeContainers.o
+         addmod PS3_Debug\BeachBiome.o
+         addmod PS3_Debug\BedItem.o
+         addmod PS3_Debug\BedTile.o
+         addmod PS3_Debug\BegGoal.o
+         addmod PS3_Debug\BinaryHeap.o
+         addmod PS3_Debug\Biome.o
+         addmod PS3_Debug\BiomeCache.o
+         addmod PS3_Debug\BiomeDecorator.o
+         addmod PS3_Debug\BiomeInitLayer.o
+         addmod PS3_Debug\BiomeOverrideLayer.o
+         addmod PS3_Debug\BiomeSource.o
+         addmod PS3_Debug\BirchFeature.o
+         addmod PS3_Debug\Blaze.o
+         addmod PS3_Debug\BlockDestructionProgress.o
+         addmod PS3_Debug\BlockGenMethods.o
+         addmod PS3_Debug\BlockRegionUpdatePacket.o
+         addmod PS3_Debug\BlockReplacements.o
+         addmod PS3_Debug\Boat.o
+         addmod PS3_Debug\BoatItem.o
+         addmod PS3_Debug\BodyControl.o
+         addmod PS3_Debug\BonusChestFeature.o
+         addmod PS3_Debug\BookItem.o
+         addmod PS3_Debug\BookshelfTile.o
+         addmod PS3_Debug\BossMob.o
+         addmod PS3_Debug\BossMobPart.o
+         addmod PS3_Debug\BottleItem.o
+         addmod PS3_Debug\BoundingBox.o
+         addmod PS3_Debug\BowItem.o
+         addmod PS3_Debug\BowlFoodItem.o
+         addmod PS3_Debug\BreakDoorGoal.o
+         addmod PS3_Debug\BreedGoal.o
+         addmod PS3_Debug\BrewingStandMenu.o
+         addmod PS3_Debug\BrewingStandTile.o
+         addmod PS3_Debug\BrewingStandTileEntity.o
+         addmod PS3_Debug\BucketItem.o
+         addmod PS3_Debug\Buffer.o
+         addmod PS3_Debug\BufferedOutputStream.o
+         addmod PS3_Debug\BufferedReader.o
+         addmod PS3_Debug\Bush.o
+         addmod PS3_Debug\ButtonTile.o
+         addmod PS3_Debug\ByteArrayInputStream.o
+         addmod PS3_Debug\ByteArrayOutputStream.o
+         addmod PS3_Debug\ByteBuffer.o
+         addmod PS3_Debug\CactusFeature.o
+         addmod PS3_Debug\CactusTile.o
+         addmod PS3_Debug\CakeTile.o
+         addmod PS3_Debug\CanyonFeature.o
+         addmod PS3_Debug\CarrotOnAStickItem.o
+         addmod PS3_Debug\CarrotTile.o
+         addmod PS3_Debug\CauldronTile.o
+         addmod PS3_Debug\CaveFeature.o
+         addmod PS3_Debug\CaveSpider.o
+         addmod PS3_Debug\ChatPacket.o
+         addmod PS3_Debug\ChestTile.o
+         addmod PS3_Debug\ChestTileEntity.o
+         addmod PS3_Debug\Chicken.o
+         addmod PS3_Debug\ChunkPos.o
+         addmod PS3_Debug\ChunkStorageProfileDecorator.o
+         addmod PS3_Debug\ChunkTilesUpdatePacket.o
+         addmod PS3_Debug\ChunkVisibilityAreaPacket.o
+         addmod PS3_Debug\ChunkVisibilityPacket.o
+         addmod PS3_Debug\Class.o
+         addmod PS3_Debug\ClayFeature.o
+         addmod PS3_Debug\ClayTile.o
+         addmod PS3_Debug\ClientCommandPacket.o
+         addmod PS3_Debug\ClientSideMerchant.o
+         addmod PS3_Debug\ClockItem.o
+         addmod PS3_Debug\ClothDyeRecipes.o
+         addmod PS3_Debug\ClothTile.o
+         addmod PS3_Debug\ClothTileItem.o
+         addmod PS3_Debug\CoalItem.o
+         addmod PS3_Debug\CocoaTile.o
+         addmod PS3_Debug\Color.o
+         addmod PS3_Debug\ColoredTileItem.o
+         addmod PS3_Debug\Command.o
+         addmod PS3_Debug\CommandDispatcher.o
+         addmod PS3_Debug\CommonStats.o
+         addmod PS3_Debug\CompassItem.o
+         addmod PS3_Debug\ComplexItem.o
+         addmod PS3_Debug\ComplexItemDataPacket.o
+         addmod PS3_Debug\CompoundContainer.o
+         addmod PS3_Debug\CompressedTileStorage.o
+         addmod PS3_Debug\compression.o
+         addmod PS3_Debug\Connection.o
+         addmod PS3_Debug\ConsoleSaveFileConverter.o
+         addmod PS3_Debug\ConsoleSaveFileOriginal.o
+         addmod PS3_Debug\Container.o
+         addmod PS3_Debug\ContainerAckPacket.o
+         addmod PS3_Debug\ContainerButtonClickPacket.o
+         addmod PS3_Debug\ContainerClickPacket.o
+         addmod PS3_Debug\ContainerClosePacket.o
+         addmod PS3_Debug\ContainerOpenPacket.o
+         addmod PS3_Debug\ContainerSetContentPacket.o
+         addmod PS3_Debug\ContainerSetDataPacket.o
+         addmod PS3_Debug\ContainerSetSlotPacket.o
+         addmod PS3_Debug\ControlledByPlayerGoal.o
+         addmod PS3_Debug\CoralTile.o
+         addmod PS3_Debug\Cow.o
+         addmod PS3_Debug\CraftingContainer.o
+         addmod PS3_Debug\CraftingMenu.o
+         addmod PS3_Debug\DefaultGameModeCommand.o
+         addmod PS3_Debug\EnchantItemCommand.o
+         addmod PS3_Debug\ExperienceCommand.o
+         addmod PS3_Debug\GameCommandPacket.o
+         addmod PS3_Debug\GameModeCommand.o
+         addmod PS3_Debug\GenericStats.o
+         addmod PS3_Debug\GiveItemCommand.o
+         addmod PS3_Debug\KillCommand.o
+         addmod PS3_Debug\PerformanceTimer.o
+         addmod PS3_Debug\TimeCommand.o
+         addmod PS3_Debug\ToggleDownfallCommand.o
+         addmod PS3_Debug\TradeItemPacket.o
+         addmod PS3_Debug\CraftItemPacket.o
+         addmod PS3_Debug\Creature.o
+         addmod PS3_Debug\Creeper.o
+         addmod PS3_Debug\CropTile.o
+         addmod PS3_Debug\CustomLevelSource.o
+         addmod PS3_Debug\CustomPayloadPacket.o
+         addmod PS3_Debug\DamageEnchantment.o
+         addmod PS3_Debug\DamageSource.o
+         addmod PS3_Debug\DataInputStream.o
+         addmod PS3_Debug\DataLayer.o
+         addmod PS3_Debug\DataOutputStream.o
+         addmod PS3_Debug\DeadBushFeature.o
+         addmod PS3_Debug\DeadBushTile.o
+         addmod PS3_Debug\DebugOptionsPacket.o
+         addmod PS3_Debug\DefendVillageTargetGoal.o
+         addmod PS3_Debug\DelayedRelease.o
+         addmod PS3_Debug\DerivedLevelData.o
+         addmod PS3_Debug\DesertBiome.o
+         addmod PS3_Debug\DesertWellFeature.o
+         addmod PS3_Debug\DetectorRailTile.o
+         addmod PS3_Debug\DigDurabilityEnchantment.o
+         addmod PS3_Debug\DiggerItem.o
+         addmod PS3_Debug\DiggingEnchantment.o
+         addmod PS3_Debug\Dimension.o
+         addmod PS3_Debug\DiodeTile.o
+         addmod PS3_Debug\Direction.o
+         addmod PS3_Debug\DirectionalTile.o
+         addmod PS3_Debug\DirectoryLevelStorage.o
+         addmod PS3_Debug\DirectoryLevelStorageSource.o
+         addmod PS3_Debug\DirtTile.o
+         addmod PS3_Debug\DisconnectPacket.o
+         addmod PS3_Debug\DispenserTile.o
+         addmod PS3_Debug\DispenserTileEntity.o
+         addmod PS3_Debug\DoorInfo.o
+         addmod PS3_Debug\DoorInteractGoal.o
+         addmod PS3_Debug\DragonFireball.o
+         addmod PS3_Debug\EatTileGoal.o
+         addmod PS3_Debug\EggTile.o
+         addmod PS3_Debug\EnchantedBookItem.o
+         addmod PS3_Debug\Enchantment.o
+         addmod PS3_Debug\EnchantmentCategory.o
+         addmod PS3_Debug\EnchantmentContainer.o
+         addmod PS3_Debug\EnchantmentHelper.o
+         addmod PS3_Debug\EnchantmentInstance.o
+         addmod PS3_Debug\EnchantmentMenu.o
+         addmod PS3_Debug\EnchantmentTableEntity.o
+         addmod PS3_Debug\EnchantmentTableTile.o
+         addmod PS3_Debug\EnderChestTile.o
+         addmod PS3_Debug\EnderChestTileEntity.o
+         addmod PS3_Debug\EnderEyeItem.o
+         addmod PS3_Debug\EnderpearlItem.o
+         addmod PS3_Debug\EndPodiumFeature.o
+         addmod PS3_Debug\ExperienceItem.o
+         addmod PS3_Debug\ExtremeHillsBiome.o
+         addmod PS3_Debug\Feature.o
+         addmod PS3_Debug\EnderCrystal.o
+         addmod PS3_Debug\EnderDragon.o
+         addmod PS3_Debug\EyeOfEnderSignal.o
+         addmod PS3_Debug\FireAspectEnchantment.o
+         addmod PS3_Debug\FireChargeItem.o
+         addmod PS3_Debug\FleeSunGoal.o
+         addmod PS3_Debug\FlippedIcon.o
+         addmod PS3_Debug\FloatGoal.o
+         addmod PS3_Debug\FlowerPotTile.o
+         addmod PS3_Debug\FollowOwnerGoal.o
+         addmod PS3_Debug\FollowParentGoal.o
+         addmod PS3_Debug\Goal.o
+         addmod PS3_Debug\GoalSelector.o
+         addmod PS3_Debug\GoldenAppleItem.o
+         addmod PS3_Debug\Golem.o
+         addmod PS3_Debug\GroundBushFeature.o
+         addmod PS3_Debug\GrowMushroomIslandLayer.o
+         addmod PS3_Debug\HalfSlabTile.o
+         addmod PS3_Debug\HangingEntity.o
+         addmod PS3_Debug\HangingEntityItem.o
+         addmod PS3_Debug\HellFlatLevelSource.o
+         addmod PS3_Debug\HurtByTargetGoal.o
+         addmod PS3_Debug\IceBiome.o
+         addmod PS3_Debug\InteractGoal.o
+         addmod PS3_Debug\ItemFrame.o
+         addmod PS3_Debug\JumpControl.o
+         addmod PS3_Debug\JungleBiome.o
+         addmod PS3_Debug\KickPlayerPacket.o
+         addmod PS3_Debug\KnockbackEnchantment.o
+         addmod PS3_Debug\LavaSlime.o
+         addmod PS3_Debug\LeapAtTargetGoal.o
+         addmod PS3_Debug\LevelSoundPacket.o
+         addmod PS3_Debug\LookAtPlayerGoal.o
+         addmod PS3_Debug\LookAtTradingPlayerGoal.o
+         addmod PS3_Debug\LookControl.o
+         addmod PS3_Debug\LootBonusEnchantment.o
+         addmod PS3_Debug\MakeLoveGoal.o
+         addmod PS3_Debug\MegaTreeFeature.o
+         addmod PS3_Debug\MeleeAttackGoal.o
+         addmod PS3_Debug\MerchantContainer.o
+         addmod PS3_Debug\MerchantMenu.o
+         addmod PS3_Debug\MerchantRecipe.o
+         addmod PS3_Debug\MerchantRecipeList.o
+         addmod PS3_Debug\MerchantResultSlot.o
+         addmod PS3_Debug\MilkBucketItem.o
+         addmod PS3_Debug\MonsterPlacerItem.o
+         addmod PS3_Debug\MoveControl.o
+         addmod PS3_Debug\MoveIndoorsGoal.o
+         addmod PS3_Debug\MoveThroughVillageGoal.o
+         addmod PS3_Debug\MoveTowardsRestrictionGoal.o
+         addmod PS3_Debug\MoveTowardsTargetGoal.o
+         addmod PS3_Debug\MultiTextureTileItem.o
+         addmod PS3_Debug\MushroomCow.o
+         addmod PS3_Debug\MushroomIslandBiome.o
+         addmod PS3_Debug\MycelTile.o
+         addmod PS3_Debug\NearestAttackableTargetGoal.o
+         addmod PS3_Debug\NetherBridgeFeature.o
+         addmod PS3_Debug\NetherBridgePieces.o
+         addmod PS3_Debug\NetherStalkTile.o
+         addmod PS3_Debug\NonTameRandomTargetGoal.o
+         addmod PS3_Debug\Npc.o
+         addmod PS3_Debug\OcelotSitOnTileGoal.o
+         addmod PS3_Debug\OfferFlowerGoal.o
+         addmod PS3_Debug\OpenDoorGoal.o
+         addmod PS3_Debug\OwnerHurtByTargetGoal.o
+         addmod PS3_Debug\OwnerHurtTargetGoal.o
+         addmod PS3_Debug\OxygenEnchantment.o
+         addmod PS3_Debug\Ozelot.o
+         addmod PS3_Debug\OzelotAttackGoal.o
+         addmod PS3_Debug\PanicGoal.o
+         addmod PS3_Debug\PathNavigation.o
+         addmod PS3_Debug\PlayerAbilitiesPacket.o
+         addmod PS3_Debug\PlayerEnderChestContainer.o
+         addmod PS3_Debug\PlayGoal.o
+         addmod PS3_Debug\PotatoTile.o
+         addmod PS3_Debug\PotionBrewing.o
+         addmod PS3_Debug\PotionItem.o
+         addmod PS3_Debug\ProtectionEnchantment.o
+         addmod PS3_Debug\QuartzBlockTile.o
+         addmod PS3_Debug\RandomLookAroundGoal.o
+         addmod PS3_Debug\RandomPos.o
+         addmod PS3_Debug\RandomScatteredLargeFeature.o
+         addmod PS3_Debug\RandomStrollGoal.o
+         addmod PS3_Debug\Rarity.o
+         addmod PS3_Debug\RedlightTile.o
+         addmod PS3_Debug\RegionHillsLayer.o
+         addmod PS3_Debug\RepairContainer.o
+         addmod PS3_Debug\RepairMenu.o
+         addmod PS3_Debug\RepairResultSlot.o
+         addmod PS3_Debug\RestrictOpenDoorGoal.o
+         addmod PS3_Debug\RestrictSunGoal.o
+         addmod PS3_Debug\RotateHeadPacket.o
+         addmod PS3_Debug\ScatteredFeaturePieces.o
+         addmod PS3_Debug\SeedFoodItem.o
+         addmod PS3_Debug\Sensing.o
+         addmod PS3_Debug\SitGoal.o
+         addmod PS3_Debug\SkullItem.o
+         addmod PS3_Debug\SkullTile.o
+         addmod PS3_Debug\SkullTileEntity.o
+         addmod PS3_Debug\SparseDataStorage.o
+         addmod PS3_Debug\SwampRiversLayer.o
+         addmod PS3_Debug\SwellGoal.o
+         addmod PS3_Debug\TakeFlowerGoal.o
+         addmod PS3_Debug\TamableAnimal.o
+         addmod PS3_Debug\TargetGoal.o
+         addmod PS3_Debug\TemptGoal.o
+         addmod PS3_Debug\ThornsEnchantment.o
+         addmod PS3_Debug\TileDestructionPacket.o
+         addmod PS3_Debug\TileEventData.o
+         addmod PS3_Debug\TradeWithPlayerGoal.o
+         addmod PS3_Debug\TripWireSourceTile.o
+         addmod PS3_Debug\TripWireTile.o
+         addmod PS3_Debug\Village.o
+         addmod PS3_Debug\VillagerGolem.o
+         addmod PS3_Debug\Villages.o
+         addmod PS3_Debug\VillageSiege.o
+         addmod PS3_Debug\VinesFeature.o
+         addmod PS3_Debug\WallTile.o
+         addmod PS3_Debug\WeighedTreasure.o
+         addmod PS3_Debug\WoodSlabTile.o
+         addmod PS3_Debug\C4JThread.o
+         addmod PS3_Debug\WoodTile.o
+         addmod PS3_Debug\WoolCarpetTile.o
+         addmod PS3_Debug\XZPacket.o
+         addmod PS3_Debug\ShoreLayer.o
+         addmod PS3_Debug\SmoothStoneBrickTileItem.o
+         addmod PS3_Debug\SparseLightStorage.o
+         addmod PS3_Debug\SpikeFeature.o
+         addmod PS3_Debug\NetherSphere.o
+         addmod PS3_Debug\SmallFireball.o
+         addmod PS3_Debug\SnowMan.o
+         addmod PS3_Debug\StoneMonsterTileItem.o
+         addmod PS3_Debug\TextureAndGeometryChangePacket.o
+         addmod PS3_Debug\TextureAndGeometryPacket.o
+         addmod PS3_Debug\TheEndBiome.o
+         addmod PS3_Debug\TheEndBiomeDecorator.o
+         addmod PS3_Debug\TheEndDimension.o
+         addmod PS3_Debug\TheEndLevelRandomLevelSource.o
+         addmod PS3_Debug\TheEndPortal.o
+         addmod PS3_Debug\TheEndPortalFrameTile.o
+         addmod PS3_Debug\TheEndPortalTileEntity.o
+         addmod PS3_Debug\Throwable.o
+         addmod PS3_Debug\ThrownEnderpearl.o
+         addmod PS3_Debug\ThrownExpBottle.o
+         addmod PS3_Debug\ThrownPotion.o
+         addmod PS3_Debug\TileEntityDataPacket.o
+         addmod PS3_Debug\UntouchingEnchantment.o
+         addmod PS3_Debug\UpdateGameRuleProgressPacket.o
+         addmod PS3_Debug\Distort.o
+         addmod PS3_Debug\DoorItem.o
+         addmod PS3_Debug\DoorTile.o
+         addmod PS3_Debug\DownfallLayer.o
+         addmod PS3_Debug\DownfallMixerLayer.o
+         addmod PS3_Debug\DungeonFeature.o
+         addmod PS3_Debug\DyePowderItem.o
+         addmod PS3_Debug\EggItem.o
+         addmod PS3_Debug\Emboss.o
+         addmod PS3_Debug\EmptyLevelChunk.o
+         addmod PS3_Debug\EnderMan.o
+         addmod PS3_Debug\Enemy.o
+         addmod PS3_Debug\Entity.o
+         addmod PS3_Debug\EntityActionAtPositionPacket.o
+         addmod PS3_Debug\EntityDamageSource.o
+         addmod PS3_Debug\EntityEventPacket.o
+         addmod PS3_Debug\EntityIO.o
+         addmod PS3_Debug\EntityPos.o
+         addmod PS3_Debug\EntityTile.o
+         addmod PS3_Debug\ExperienceOrb.o
+         addmod PS3_Debug\ExplodePacket.o
+         addmod PS3_Debug\Explosion.o
+         addmod PS3_Debug\Facing.o
+         addmod PS3_Debug\FallingTile.o
+         addmod PS3_Debug\FarmTile.o
+         addmod PS3_Debug\FastNoise.o
+         addmod PS3_Debug\FenceGateTile.o
+         addmod PS3_Debug\FenceTile.o
+         addmod PS3_Debug\File.o
+         addmod PS3_Debug\FileHeader.o
+         addmod PS3_Debug\FileInputStream.o
+         addmod PS3_Debug\FileOutputStream.o
+         addmod PS3_Debug\Fireball.o
+         addmod PS3_Debug\FireTile.o
+         addmod PS3_Debug\FishingHook.o
+         addmod PS3_Debug\FishingRodItem.o
+         addmod PS3_Debug\FixedBiomeSource.o
+         addmod PS3_Debug\FlatLayer.o
+         addmod PS3_Debug\FlatLevelSource.o
+         addmod PS3_Debug\FlintAndSteelItem.o
+         addmod PS3_Debug\FloatBuffer.o
+         addmod PS3_Debug\FlowerFeature.o
+         addmod PS3_Debug\FlyingMob.o
+         addmod PS3_Debug\FoliageColor.o
+         addmod PS3_Debug\FoodConstants.o
+         addmod PS3_Debug\FoodData.o
+         addmod PS3_Debug\FoodItem.o
+         addmod PS3_Debug\FoodRecipies.o
+         addmod PS3_Debug\ForestBiome.o
+         addmod PS3_Debug\FurnaceMenu.o
+         addmod PS3_Debug\FurnaceRecipes.o
+         addmod PS3_Debug\FurnaceResultSlot.o
+         addmod PS3_Debug\FurnaceTile.o
+         addmod PS3_Debug\FurnaceTileEntity.o
+         addmod PS3_Debug\FuzzyZoomLayer.o
+         addmod PS3_Debug\GameEventPacket.o
+         addmod PS3_Debug\GeneralStat.o
+         addmod PS3_Debug\GetInfoPacket.o
+         addmod PS3_Debug\Ghast.o
+         addmod PS3_Debug\Giant.o
+         addmod PS3_Debug\GlassTile.o
+         addmod PS3_Debug\GlobalEntity.o
+         addmod PS3_Debug\GrassColor.o
+         addmod PS3_Debug\GrassTile.o
+         addmod PS3_Debug\GravelTile.o
+         addmod PS3_Debug\HalfTransparentTile.o
+         addmod PS3_Debug\Hasher.o
+         addmod PS3_Debug\HatchetItem.o
+         addmod PS3_Debug\HellBiome.o
+         addmod PS3_Debug\HellDimension.o
+         addmod PS3_Debug\HellFireFeature.o
+         addmod PS3_Debug\HellPortalFeature.o
+         addmod PS3_Debug\HellRandomLevelSource.o
+         addmod PS3_Debug\HellSandTile.o
+         addmod PS3_Debug\HellSpringFeature.o
+         addmod PS3_Debug\HellStoneTile.o
+         addmod PS3_Debug\HitResult.o
+         addmod PS3_Debug\HoeItem.o
+         addmod PS3_Debug\HouseFeature.o
+         addmod PS3_Debug\HugeMushroomFeature.o
+         addmod PS3_Debug\HugeMushroomTile.o
+         addmod PS3_Debug\I18n.o
+         addmod PS3_Debug\IceTile.o
+         addmod PS3_Debug\ImprovedNoise.o
+         addmod PS3_Debug\ContainerMenu.o
+         addmod PS3_Debug\IndirectEntityDamageSource.o
+         addmod PS3_Debug\InputStream.o
+         addmod PS3_Debug\InputStreamReader.o
+         addmod PS3_Debug\InstantenousMobEffect.o
+         addmod PS3_Debug\IntBuffer.o
+         addmod PS3_Debug\IntCache.o
+         addmod PS3_Debug\InteractPacket.o
+         addmod PS3_Debug\Inventory.o
+         addmod PS3_Debug\InventoryMenu.o
+         addmod PS3_Debug\IslandLayer.o
+         addmod PS3_Debug\Item.o
+         addmod PS3_Debug\ItemEntity.o
+         addmod PS3_Debug\ItemInstance.o
+         addmod PS3_Debug\ItemStat.o
+         addmod PS3_Debug\KeepAlivePacket.o
+         addmod PS3_Debug\LadderTile.o
+         addmod PS3_Debug\LakeFeature.o
+         addmod PS3_Debug\Language.o
+         addmod PS3_Debug\LargeCaveFeature.o
+         addmod PS3_Debug\LargeFeature.o
+         addmod PS3_Debug\LargeHellCaveFeature.o
+         addmod PS3_Debug\Layer.o
+         addmod PS3_Debug\LeafTile.o
+         addmod PS3_Debug\LeafTileItem.o
+         addmod PS3_Debug\LevelConflictException.o
+         addmod PS3_Debug\LevelData.o
+         addmod PS3_Debug\Level.o
+         addmod PS3_Debug\LevelChunk.o
+         addmod PS3_Debug\LevelEventPacket.o
+         addmod PS3_Debug\LevelSettings.o
+         addmod PS3_Debug\LevelStorage.o
+         addmod PS3_Debug\LevelStorageProfilerDecorator.o
+         addmod PS3_Debug\LevelSummary.o
+         addmod PS3_Debug\LevelType.o
+         addmod PS3_Debug\LeverTile.o
+         addmod PS3_Debug\LightGemFeature.o
+         addmod PS3_Debug\LightGemTile.o
+         addmod PS3_Debug\LightningBolt.o
+         addmod PS3_Debug\LiquidTile.o
+         addmod PS3_Debug\LiquidTileDynamic.o
+         addmod PS3_Debug\LiquidTileStatic.o
+         addmod PS3_Debug\LockedChestTile.o
+         addmod PS3_Debug\LoginPacket.o
+         addmod PS3_Debug\MapItem.o
+         addmod PS3_Debug\MapItemSavedData.o
+         addmod PS3_Debug\Material.o
+         addmod PS3_Debug\MaterialColor.o
+         addmod PS3_Debug\JavaMath.o
+         addmod PS3_Debug\McRegionChunkStorage.o
+         addmod PS3_Debug\McRegionLevelStorageSource.o
+         addmod PS3_Debug\McRegionLevelStorage.o
+         addmod PS3_Debug\MelonTile.o
+         addmod PS3_Debug\MenuBackup.o
+         addmod PS3_Debug\MetalTile.o
+         addmod PS3_Debug\Minecart.o
+         addmod PS3_Debug\MinecartItem.o
+         addmod PS3_Debug\Minecraft.World.o
+         addmod PS3_Debug\MineShaftFeature.o
+         addmod PS3_Debug\MineShaftPieces.o
+         addmod PS3_Debug\MineShaftStart.o
+         addmod PS3_Debug\Mob.o
+         addmod PS3_Debug\MobCategory.o
+         addmod PS3_Debug\MobEffect.o
+         addmod PS3_Debug\MobEffectInstance.o
+         addmod PS3_Debug\MobSpawner.o
+         addmod PS3_Debug\MobSpawnerTile.o
+         addmod PS3_Debug\MobSpawnerTileEntity.o
+         addmod PS3_Debug\MockedLevelStorage.o
+         addmod PS3_Debug\Monster.o
+         addmod PS3_Debug\MonsterRoomFeature.o
+         addmod PS3_Debug\MoveEntityPacket.o
+         addmod PS3_Debug\MoveEntityPacketSmall.o
+         addmod PS3_Debug\MovePlayerPacket.o
+         addmod PS3_Debug\Mth.o
+         addmod PS3_Debug\Mushroom.o
+         addmod PS3_Debug\MusicTile.o
+         addmod PS3_Debug\MusicTileEntity.o
+         addmod PS3_Debug\NbtIo.o
+         addmod PS3_Debug\Node.o
+         addmod PS3_Debug\NotGateTile.o
+         addmod PS3_Debug\ObsidianTile.o
+         addmod PS3_Debug\OldChunkStorage.o
+         addmod PS3_Debug\OreFeature.o
+         addmod PS3_Debug\OreRecipies.o
+         addmod PS3_Debug\OreTile.o
+         addmod PS3_Debug\Packet.o
+         addmod PS3_Debug\PacketListener.o
+         addmod PS3_Debug\Painting.o
+         addmod PS3_Debug\Path.o
+         addmod PS3_Debug\PathFinder.o
+         addmod PS3_Debug\PathfinderMob.o
+         addmod PS3_Debug\PerlinNoise.o
+         addmod PS3_Debug\PerlinSimplexNoise.o
+         addmod PS3_Debug\PickaxeItem.o
+         addmod PS3_Debug\Pig.o
+         addmod PS3_Debug\PigZombie.o
+         addmod PS3_Debug\PineFeature.o
+         addmod PS3_Debug\PistonBaseTile.o
+         addmod PS3_Debug\PistonExtensionTile.o
+         addmod PS3_Debug\PistonMovingPiece.o
+         addmod PS3_Debug\PistonPieceEntity.o
+         addmod PS3_Debug\PistonTileItem.o
+         addmod PS3_Debug\PlainsBiome.o
+         addmod PS3_Debug\Player.o
+         addmod PS3_Debug\PlayerActionPacket.o
+         addmod PS3_Debug\PlayerCommandPacket.o
+         addmod PS3_Debug\PlayerInfoPacket.o
+         addmod PS3_Debug\PlayerInputPacket.o
+         addmod PS3_Debug\PortalForcer.o
+         addmod PS3_Debug\PortalTile.o
+         addmod PS3_Debug\Pos.o
+         addmod PS3_Debug\PreLoginPacket.o
+         addmod PS3_Debug\PressurePlateTile.o
+         addmod PS3_Debug\PrimedTnt.o
+         addmod PS3_Debug\PumpkinFeature.o
+         addmod PS3_Debug\PumpkinTile.o
+         addmod PS3_Debug\RailTile.o
+         addmod PS3_Debug\RainforestBiome.o
+         addmod PS3_Debug\Random.o
+         addmod PS3_Debug\RandomLevelSource.o
+         addmod PS3_Debug\ReadOnlyChunkCache.o
+         addmod PS3_Debug\Recipes.o
+         addmod PS3_Debug\RecordingItem.o
+         addmod PS3_Debug\RecordPlayerTile.o
+         addmod PS3_Debug\RedStoneDustTile.o
+         addmod PS3_Debug\RedStoneItem.o
+         addmod PS3_Debug\RedStoneOreTile.o
+         addmod PS3_Debug\ReedsFeature.o
+         addmod PS3_Debug\ReedTile.o
+         addmod PS3_Debug\Region.o
+         addmod PS3_Debug\RegionFile.o
+         addmod PS3_Debug\RegionFileCache.o
+         addmod PS3_Debug\RemoveEntitiesPacket.o
+         addmod PS3_Debug\RemoveMobEffectPacket.o
+         addmod PS3_Debug\RespawnPacket.o
+         addmod PS3_Debug\ResultContainer.o
+         addmod PS3_Debug\ResultSlot.o
+         addmod PS3_Debug\RiverInitLayer.o
+         addmod PS3_Debug\RiverLayer.o
+         addmod PS3_Debug\RiverMixerLayer.o
+         addmod PS3_Debug\Rotate.o
+         addmod PS3_Debug\SaddleItem.o
+         addmod PS3_Debug\SandFeature.o
+         addmod PS3_Debug\SandStoneTile.o
+         addmod PS3_Debug\HeavyTile.o
+         addmod PS3_Debug\Sapling.o
+         addmod PS3_Debug\SaplingTileItem.o
+         addmod PS3_Debug\SavedData.o
+         addmod PS3_Debug\SavedDataStorage.o
+         addmod PS3_Debug\Scale.o
+         addmod PS3_Debug\SeedItem.o
+         addmod PS3_Debug\ServerSettingsChangedPacket.o
+         addmod PS3_Debug\SetCarriedItemPacket.o
+         addmod PS3_Debug\SetCreativeModeSlotPacket.o
+         addmod PS3_Debug\SetEntityDataPacket.o
+         addmod PS3_Debug\SetEntityMotionPacket.o
+         addmod PS3_Debug\SetEquippedItemPacket.o
+         addmod PS3_Debug\SetExperiencePacket.o
+         addmod PS3_Debug\SetHealthPacket.o
+         addmod PS3_Debug\SetRidingPacket.o
+         addmod PS3_Debug\SetSpawnPositionPacket.o
+         addmod PS3_Debug\SetTimePacket.o
+         addmod PS3_Debug\ShapedRecipy.o
+         addmod PS3_Debug\ShapelessRecipy.o
+         addmod PS3_Debug\SharedConstants.o
+         addmod PS3_Debug\ShearsItem.o
+         addmod PS3_Debug\Sheep.o
+         addmod PS3_Debug\ShovelItem.o
+         addmod PS3_Debug\SignItem.o
+         addmod PS3_Debug\SignTile.o
+         addmod PS3_Debug\SignTileEntity.o
+         addmod PS3_Debug\SignUpdatePacket.o
+         addmod PS3_Debug\Silverfish.o
+         addmod PS3_Debug\SimpleContainer.o
+         addmod PS3_Debug\SimplexNoise.o
+         addmod PS3_Debug\Skeleton.o
+         addmod PS3_Debug\Slime.o
+         addmod PS3_Debug\Slot.o
+         addmod PS3_Debug\SmoothFloat.o
+         addmod PS3_Debug\SmoothLayer.o
+         addmod PS3_Debug\SmoothStoneBrickTile.o
+         addmod PS3_Debug\SmoothZoomLayer.o
+         addmod PS3_Debug\Snowball.o
+         addmod PS3_Debug\SnowballItem.o
+         addmod PS3_Debug\SnowTile.o
+         addmod PS3_Debug\Socket.o
+         addmod PS3_Debug\Spider.o
+         addmod PS3_Debug\Sponge.o
+         addmod PS3_Debug\SpringFeature.o
+         addmod PS3_Debug\SpringTile.o
+         addmod PS3_Debug\SpruceFeature.o
+         addmod PS3_Debug\Squid.o
+         addmod PS3_Debug\Stat.o
+         addmod PS3_Debug\Stats.o
+         addmod PS3_Debug\StairTile.o
+         addmod PS3_Debug\stdafx.o
+         addmod PS3_Debug\StemTile.o
+         addmod PS3_Debug\StoneMonsterTile.o
+         addmod PS3_Debug\StoneSlabTile.o
+         addmod PS3_Debug\StoneSlabTileItem.o
+         addmod PS3_Debug\StoneTile.o
+         addmod PS3_Debug\StringHelpers.o
+         addmod PS3_Debug\StrongholdFeature.o
+         addmod PS3_Debug\StrongholdPieces.o
+         addmod PS3_Debug\StructureFeature.o
+         addmod PS3_Debug\StructurePiece.o
+         addmod PS3_Debug\StructureRecipies.o
+         addmod PS3_Debug\StructureStart.o
+         addmod PS3_Debug\SwampBiome.o
+         addmod PS3_Debug\SwampTreeFeature.o
+         addmod PS3_Debug\SynchedEntityData.o
+         addmod PS3_Debug\Synth.o
+         addmod PS3_Debug\system.o
+         addmod PS3_Debug\Tag.o
+         addmod PS3_Debug\TaigaBiome.o
+         addmod PS3_Debug\TakeItemEntityPacket.o
+         addmod PS3_Debug\TallGrass.o
+         addmod PS3_Debug\TallGrassFeature.o
+         addmod PS3_Debug\TeleportEntityPacket.o
+         addmod PS3_Debug\TemperatureLayer.o
+         addmod PS3_Debug\TemperatureMixerLayer.o
+         addmod PS3_Debug\TextureChangePacket.o
+         addmod PS3_Debug\TexturePacket.o
+         addmod PS3_Debug\ThinFenceTile.o
+         addmod PS3_Debug\ThreadName.o
+         addmod PS3_Debug\ThrownEgg.o
+         addmod PS3_Debug\TickNextTickData.o
+         addmod PS3_Debug\Tile.o
+         addmod PS3_Debug\TileEventPacket.o
+         addmod PS3_Debug\TileItem.o
+         addmod PS3_Debug\TileEntity.o
+         addmod PS3_Debug\TilePlanterItem.o
+         addmod PS3_Debug\TilePos.o
+         addmod PS3_Debug\TileUpdatePacket.o
+         addmod PS3_Debug\TntTile.o
+         addmod PS3_Debug\ToolRecipies.o
+         addmod PS3_Debug\TopSnowTile.o
+         addmod PS3_Debug\TorchTile.o
+         addmod PS3_Debug\TransparentTile.o
+         addmod PS3_Debug\TrapDoorTile.o
+         addmod PS3_Debug\TrapMenu.o
+         addmod PS3_Debug\TreeFeature.o
+         addmod PS3_Debug\TreeTileItem.o
+         addmod PS3_Debug\UpdateMobEffectPacket.o
+         addmod PS3_Debug\UpdateProgressPacket.o
+         addmod PS3_Debug\UseItemPacket.o
+         addmod PS3_Debug\Vec3.o
+         addmod PS3_Debug\VillageFeature.o
+         addmod PS3_Debug\VillagePieces.o
+         addmod PS3_Debug\Villager.o
+         addmod PS3_Debug\VineTile.o
+         addmod PS3_Debug\VoronoiZoom.o
+         addmod PS3_Debug\WaterColor.o
+         addmod PS3_Debug\WaterLevelChunk.o
+         addmod PS3_Debug\WaterlilyFeature.o
+         addmod PS3_Debug\WaterLilyTile.o
+         addmod PS3_Debug\WaterLilyTileItem.o
+         addmod PS3_Debug\WaterWorkerEnchantment.o
+         addmod PS3_Debug\WeaponItem.o
+         addmod PS3_Debug\WeaponRecipies.o
+         addmod PS3_Debug\WeighedRandom.o
+         addmod PS3_Debug\Wolf.o
+         addmod PS3_Debug\TreeTile.o
+         addmod PS3_Debug\WebTile.o
+         addmod PS3_Debug\WorkbenchTile.o
+         addmod PS3_Debug\ConsoleSaveFileInputStream.o
+         addmod PS3_Debug\ConsoleSaveFileOutputStream.o
+         addmod PS3_Debug\Zombie.o
+         addmod PS3_Debug\WaterAnimal.o
+         addmod PS3_Debug\ZoomLayer.o
+         save
+         end
+         Minecraft.World.vcxproj -> C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\PS3_Debug\Minecraft.World.a
+     1>Done Building Project "C:\Users\night\Documents\project ps3\minecraft lce ps3 test build\Minecraft.World\Minecraft.World.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.66
