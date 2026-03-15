@@ -777,6 +777,8 @@ void Gui::render(float a, bool mouseFree, int xMouse, int yMouse)
 	//            font.draw(str, x + 1, y, 0xffffff);
 	//        }
 
+
+font->drawShadow(ClientConstants::VERSION_STRING + L" (" + minecraft->fpsString + L")", iSafezoneXHalf+2, 20, 0xffffff);
 #ifndef _FINAL_BUILD
 	MemSect(31);
     if (minecraft->options->renderDebug)

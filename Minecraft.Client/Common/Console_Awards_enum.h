@@ -48,10 +48,10 @@ enum eAward
 #ifdef _EXTENDED_ACHIEVEMENTS
 	eAward_adventuringTime,
 	eAward_repopulation,
-	//eAward_porkChop,
+	eAward_porkChop,
 	eAward_diamondsToYou,
-	//eAward_passingTheTime,
-	//eAward_archer,
+	eAward_passingTheTime,
+	eAward_archer,
 	eAward_theHaggler,
 	eAward_potPlanter,
 	eAward_itsASign,

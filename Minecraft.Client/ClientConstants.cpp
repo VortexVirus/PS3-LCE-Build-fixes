@@ -11,6 +11,8 @@
 				const wstring ClientConstants::VERSION_STRING = wstring(L"Minecraft Durango ") + VER_FILEVERSION_STR_W;//+ SharedConstants::VERSION_STRING;
 #elif (defined __PSVITA__)
 				const wstring ClientConstants::VERSION_STRING = wstring(L"Minecraft PSVita ") + VER_FILEVERSION_STR_W;//+ SharedConstants::VERSION_STRING;
+#else ()
+				const wstring ClientConstants::VERSION_STRING = wstring(L"Minecraft Windows64 ") + VER_FILEVERSION_STR_W;//+ SharedConstants::VERSION_STRING;
 #endif
 //|| defined __ORBIS__  || defined _DURANGO  || defined __PSVITA__
 //const wstring ClientConstants::VERSION_STRING = wstring(L"Minecraft Xbox ") + VER_FILEVERSION_STR_W;//+ SharedConstants::VERSION_STRING;
